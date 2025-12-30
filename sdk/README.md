@@ -87,7 +87,7 @@ This will create a *client*, configure it using the environment variables as des
 
 ### Client list
 
-The more advanced API call is the client list. It follows the same ***Connect***/***Close***/***Destroy*** pattern as teh simple client. The difference is that it spawns multiple clients which are configured by an env variable `NS_NETWORKSERVICEMESH_IO`. It takes a comma separated list of URLs with the following format:
+The more advanced API call is the client list. It follows the same ***Connect***/***Close***/***Destroy*** pattern as the simple client. The difference is that it spawns multiple clients which are configured by an env variable `NS_NETWORKSERVICEMESH_IO`. It takes a comma separated list of URLs with the following format:
 
 ```shell
 ${nsname}/${interface}?${label1}=${value1}&${label2}=${value2}
